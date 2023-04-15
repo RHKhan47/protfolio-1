@@ -1,0 +1,26 @@
+body{
+    font-family: 'Cinzel', serif;
+}
+h1{
+    font-size: 40px;
+}
+span.intro{
+    color: goldenrod;
+}
+div.First{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.First img{
+    width: 100%;
+}
+a.button{
+    background-image: linear-gradient(45deg,gold,goldenrod);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
