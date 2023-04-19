@@ -5,15 +5,17 @@ body{
 h1{
     font-size: 40px;
 }
+.hello{
+    padding-top: 7%;
+}
 span.intro{
     color: goldenrod;
 }
-div.First{
+.First{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4.5%;
     padding-left: 2%;
-
 }
 .First img{
     width: 110%;
@@ -30,11 +32,17 @@ div.First{
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
 }
-section{
-    height: 500px;
+
+section.top-banner{
+    height: 550px;
+  
     
 }
-.tag-line{
+section.Me{
+    height: 500px;
+}
+
+span.tag-line{
     font-weight: 900;
     color: orange;
     font-size: 120%;
@@ -46,6 +54,47 @@ section{
 
 }
 .Me .First h2{
+    padding-top: 15%;
+}
+.Me{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+section.Last{
+    height: 400px;
     padding-top: 5%;
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+}
+.box{
+    box-shadow: 10px 10px 50px gray;
+    background-color: white;
+}
+h3{
+    color: rgb(239, 192, 72);
+}
+.bold{
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 5%;
+    color: orange;
+}
+#one{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(128, 0, 107),rgb(211, 130, 211));
+    border-image-slice: 1;
+}
+#two{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,lightblue);
+    border-image-slice: 1;
+}
+footer{
+    font-size: small;
+    text-align: center;
 }
 
